@@ -1,0 +1,96 @@
+/*Color and fonts*/
+
+body {
+	background: #FCFCFC;
+	font-family: 'Lora', serif;
+	color:#014711; 
+	font-weight: 400;
+	font-size: 20px;
+	line-height: ;
+
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {font-weight: 900;
+	font-size: 32px;
+}
+
+h2 {
+	color:#049281;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #666666;
+	font-weight: bold;
+}
+a:hover {
+	color: #014711;
+}
+
+/*Custom design with class (99% of the design*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 800px) {
+	.container {
+		width: 600px
+	}	
+}
+@media (max-width: 600px) {
+	.container {
+		width: 400px
+	}	
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-grey {
+	background-color: #666666;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-grey:hover {
+	background-color: #014711;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+/*Design adjustments using id (1% of the design)*/
+#introduction p {
+	margin-bottom: 40px;
+}
